@@ -9,4 +9,5 @@ end
 # how do i use collect in here to still be able to reverse the words, without reverseing the order??
 
 
-# words.collect do |sentences|
+# can't call collect on a string so I split the string before calling it 
+# needed to wait for the loop to finish before calling my .join b/c 
